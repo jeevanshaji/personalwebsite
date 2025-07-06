@@ -5,22 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jeevan Shaji V V | Embedded Software Engineer</title>
   <style>
-    /* Global Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    /* Global styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Segoe UI', Tahoma, sans-serif;
       background: linear-gradient(to bottom right, #f1f5f9, #e2e8f0);
       color: #333;
       animation: fadeInBody 1s ease-in;
     }
-    @keyframes fadeInBody {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
+    @keyframes fadeInBody { from { opacity: 0; } to { opacity: 1; } }
 
     header {
       background: #007acc;
@@ -28,28 +21,16 @@
       padding: 40px 0;
       text-align: center;
       animation: slideDown 1s ease-out;
-      position: relative;
     }
-    @keyframes slideDown {
-      from { transform: translateY(-50px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2em;
-    }
+    @keyframes slideDown { from { transform: translateY(-50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
-    /* Profile image styles */
     .profile-pic {
       width: 150px;
       height: 150px;
       margin: 0 auto 20px;
       border-radius: 50%;
       overflow: hidden;
-      border: 4px solid #fff;
+      border: 4px solid white;
     }
     .profile-pic img {
       width: 100%;
@@ -57,19 +38,19 @@
       object-fit: cover;
     }
 
+    header h1 { font-size: 2.5em; margin-bottom: 10px; }
+    header p { font-size: 1.2em; }
+
     .container {
       max-width: 960px;
       margin: 30px auto;
       padding: 20px;
-      background: #fff;
+      background: white;
       border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       animation: popUp 0.8s ease;
     }
-    @keyframes popUp {
-      from { transform: scale(0.95); opacity: 0; }
-      to { transform: scale(1); opacity: 1; }
-    }
+    @keyframes popUp { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 
     h2 {
       color: #007acc;
@@ -77,10 +58,7 @@
       padding-bottom: 5px;
       margin-top: 30px;
     }
-    ul {
-      padding-left: 20px;
-      line-height: 1.7;
-    }
+    ul { padding-left: 20px; line-height: 1.7; }
     a {
       color: #007acc;
       text-decoration: none;
@@ -106,10 +84,7 @@
       margin-top: 40px;
       animation: fadeInFooter 1s ease-in;
     }
-    @keyframes fadeInFooter {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
+    @keyframes fadeInFooter { from { opacity: 0; } to { opacity: 1; } }
   </style>
 </head>
 <body>
@@ -124,8 +99,70 @@
 
   <div class="container">
 
-    <!-- About Me section -->
-    <!-- ... other sections remain unchanged ... -->
+    <section>
+      <h2>👋 About Me</h2>
+      <p>I'm a passionate Embedded Software Engineer with experience in developing low‑latency, secure, and efficient systems. I specialize in C/C++, mbedTLS, and wireless (BLE/UWB). I enjoy solving real-world problems with clean code.</p>
+    </section>
+
+    <section>
+      <h2>🧠 Core Skills</h2>
+      <ul>
+        <li>Programming: C, C++, Java, Python</li>
+        <li>Protocols: UART, SPI, I2C, CAN</li>
+        <li>Wireless: BLE, UWB, NFC</li>
+        <li>Security: mbedTLS (Encryption, Secure Boot, Authentication)</li>
+        <li>Tools: Embedded IDEs, Android Studio, Git, VS Code</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💼 Experience</h2>
+      <p><strong>Thinkseed Systems Pvt Ltd</strong>, Bangalore — <em>Software Engineer</em> <br /><small>Oct 2023 – Present</small></p>
+      <ul>
+        <li>Built embedded security modules using mbedTLS</li>
+        <li>Developed BLE & UWB communication systems</li>
+        <li>Integrated Android apps with BLE</li>
+        <li>Worked with UART, SPI, I2C, CAN protocols</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📂 Projects</h2>
+      <ul>
+        <li><strong>Automated Plastic Waste Detection Bot</strong> – Deep learning + robotics for real-time waste detection and collection.</li>
+        <li><strong>Medcare</strong> – MERN-stack where patients can book tokens and hospitals can track in real-time.</li>
+        <li><strong>Automatic Fire Fighting Bot</strong> – IoT robot that detects and extinguishes fires autonomously.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎓 Education</h2>
+      <ul>
+        <li><strong>B.Tech in Computer Science</strong>, Govt. College of Engineering, Kannur (CGPA: 9.22/10 – 2023)</li>
+        <li><strong>12th Grade (Computer Science)</strong>, St. Joseph’s HSS, Thalassery (98.41% – 2019)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🏆 Achievements</h2>
+      <ul>
+        <li>Implemented embedded encryption using mbedTLS</li>
+        <li>Built multiple full-stack and IoT projects</li>
+        <li>Maintained excellent academic performance</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📄 Resume</h2>
+      <p><a href="attachments/resume/jeevanshajivv_resume.pdf" target="_blank" download>📥 Download My Resume (PDF)</a></p>
+    </section>
+
+    <section>
+      <h2>📫 Contact</h2>
+      <p>Email: <a href="mailto:jeevanshaji144@gmail.com">jeevanshaji144@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/jeevanshaji" target="_blank">github.com/jeevanshaji</a></p>
+      <p>Phone: +91 8138082680</p>
+    </section>
 
   </div>
 
